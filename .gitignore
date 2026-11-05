@@ -1,0 +1,33 @@
+# Build output
+/build/
+/build-*/
+/dist/
+*.exe
+*.dll
+*.obj
+*.o
+*.a
+*.lib
+*.pdb
+
+# Local SDKs and tools
+/local/
+
+# Optional art textures (not distributed, see assets/art/README.md)
+/assets/art/*.png
+
+# Test and runtime scratch files
+test-tuning.tmp
+*.gws
+*.gws.view
+*.log
+/experiment/
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
